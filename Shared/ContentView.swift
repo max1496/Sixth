@@ -9,13 +9,47 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        
+        
+        HStack{
+            
+            
+            MyVstackView()
+            MyVstackView()
+            MyVstackView()
+        }//Hstack
+        .padding(20.0)
+        .background(Color.yellow)
     }
 }
 
+struct MyVstackView: View {
+    var body: some View {
+        VStack{
+            Text("1")
+                .fontWeight(.bold)
+                .font(.system(size: 50))
+                .padding()
+            Text("2")
+                .fontWeight(.bold)
+                .font(.system(size: 50))
+                .padding()
+            Text("3")
+                .fontWeight(.bold)
+                .font(.system(size: 50))
+                .padding()
+        }
+        .background(Color.red)
+    }
+}
+
+
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        Group {
+            ContentView()
+.previewInterfaceOrientation(.portrait)
+            ContentView()
+        }
     }
 }
