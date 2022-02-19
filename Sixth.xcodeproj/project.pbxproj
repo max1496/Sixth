@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7046148927C095E9006697FB /* MyTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7046148827C095E9006697FB /* MyTextView.swift */; };
+		7046148A27C095FF006697FB /* MyTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7046148827C095E9006697FB /* MyTextView.swift */; };
 		70EF154D27BF443E00A2F7FD /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70EF154C27BF443E00A2F7FD /* Tests_iOS.swift */; };
 		70EF154F27BF443E00A2F7FD /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70EF154E27BF443E00A2F7FD /* Tests_iOSLaunchTests.swift */; };
 		70EF155927BF443E00A2F7FD /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70EF155827BF443E00A2F7FD /* Tests_macOS.swift */; };
@@ -37,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7046148827C095E9006697FB /* MyTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTextView.swift; sourceTree = "<group>"; };
 		70EF153427BF443D00A2F7FD /* SixthApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SixthApp.swift; sourceTree = "<group>"; };
 		70EF153527BF443D00A2F7FD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		70EF153627BF443E00A2F7FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -98,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				70EF153427BF443D00A2F7FD /* SixthApp.swift */,
+				7046148827C095E9006697FB /* MyTextView.swift */,
 				70EF153527BF443D00A2F7FD /* ContentView.swift */,
 				70EF153627BF443E00A2F7FD /* Assets.xcassets */,
 			);
@@ -300,6 +304,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				70EF155E27BF443E00A2F7FD /* ContentView.swift in Sources */,
+				7046148927C095E9006697FB /* MyTextView.swift in Sources */,
 				70EF155C27BF443E00A2F7FD /* SixthApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,6 +314,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				70EF155F27BF443E00A2F7FD /* ContentView.swift in Sources */,
+				7046148A27C095FF006697FB /* MyTextView.swift in Sources */,
 				70EF155D27BF443E00A2F7FD /* SixthApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
