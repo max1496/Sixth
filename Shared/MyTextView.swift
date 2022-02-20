@@ -17,3 +17,14 @@ struct MyTextView: View{
         }.background(Color.red)
     }
 }
+
+struct MyTextView_Previews: PreviewProvider {
+    static var previews: some View {
+        Group {
+            MyTextView()
+                .previewInterfaceOrientation(.portrait)
+            
+.previewInterfaceOrientation(.portrait)
+        }
+    }
+}
